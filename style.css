@@ -1,0 +1,27 @@
+body{
+    display: flex;
+}
+
+section{
+    display:flex;
+    align-items: center;
+    height:75vh;
+
+}
+
+form{
+    display: flex;
+    background-color: antiquewhite;
+    border: solid 3px black;
+    /* align-items: space-between; */
+    flex-direction: column;
+    height:100%;
+
+}
+
+#card-section{
+    display:none;
+    background-color: lavender;
+    border:dashed 3px black;
+    flex-direction: column;
+}
